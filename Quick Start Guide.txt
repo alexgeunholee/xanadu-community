@@ -1,0 +1,23 @@
+Setup and test for single machine sudo cluster
+
+1. Please confirm that Java 8 (Oracle JDK8) is properly installed.
+Open Command Prompt(Windows)/Terminal(Mac/Linux) and type jave-version.
+If not, please download Java 8 from the following link and install it:
+https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+
+2. Open 3 Command Prompts/Terminals and change directory to the one that you copied files of Xanadu Community Package.
+Type java -jar XanaduRFT.jar -mode registry –registryNodeNumber 0, java -jar XanaduRFT.jar -mode registry –registryNodeNumber 1, 
+java -jar XanaduRFT.jar -mode registry –registryNodeNumber 2 in each Command Prompt/Terminal.
+
+3. Open another 3 Command Prompts/Terminals and change directory to the one that you copied files of Xanadu Community Package.
+Type java -jar XanaduRFT.jar -mode store -listenAddress localhost:8080, java -jar XanaduRFT.jar -mode store -listenAddress localhost:8081,
+java -jar XanaduRFT.jar -mode store -listenAddress localhost:8082 in each Command Prompt/Terminal.
+
+4. Open another 3 Command Prompts/Terminals and change directory to the one that you copied files of Xanadu Community Package.
+Type java -jar XanaduRFT.jar -mode realtime -listenAddress 0.0.0.0 for all Command Prompts/Terminals
+
+5. Open a new Command Prompts/Terminal and change directory to the one that you copied files of Xanadu Community Package.
+Type javac -cp XanaduRFT.jar;. (or :.) KeyValueDataStoreTutorialA.java & 
+java -cp XanaduRFT.jar;. (or :.) KeyValueDataStoreTutorialA -replicas 2 -blocksize 2 -registries localhost:2020,localhost:2021,localhost:2022
+Type javac -cp XanaduRFT.jar;. (or :.) KeyValueDataStoreTutorialB.java & 
+java -cp XanaduRFT.jar;. (or :.) KeyValueDataStoreTutorialB -replicas 2 -blocksize 2 -registries localhost:2020,localhost:2021,localhost:2022
