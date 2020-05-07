@@ -11,6 +11,7 @@ Xanadu implementation is currently split into four parts:
 4.	XanaduRFT (Community): XanaduRFT (Community) is essentially the same as XanaduRFT except it has some limitations to encourage users to use the full XanaduRFT or XanaduPX when moving from prototype applications into production.
 
 For an introductory overview of Xanadu, please see following video.
+
 Link: https://www.youtube.com/watch?v=3GJcFCsQzCI&list=UUkERuP7J9mW1tY1dgN_PttQ&index=55
 
 Followings illustrate some use cases of Xanadu
