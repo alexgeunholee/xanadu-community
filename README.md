@@ -10,9 +10,26 @@ Xanadu implementation is currently split into four parts:
 3.	XanaduNext: A new implementation of the Xanadu codebase that is refactored to take the best aspects from the above two versions and anticipate the full range of capabilities planned and patented    for the platform.
 4.	XanaduRFT (Community): XanaduRFT (Community) is essentially the same as XanaduRFT except it has some limitations to encourage users to use the full XanaduRFT or XanaduPX when moving from prototype applications into production.
 
+
 For an introductory overview of Xanadu, please see following video.
 
 Link: https://www.youtube.com/watch?v=3GJcFCsQzCI&list=UUkERuP7J9mW1tY1dgN_PttQ&index=55
+
+
+Followings show some demos of Xanadu performance
+
+Xanadu Fault Tolerance Demo
+
+Link: https://www.youtube.com/watch?v=H2LVMuHaJEo&feature=youtu.be
+
+Xanadu Real Time Streaming Video Data Archiving for Hadoop Analysis Demo
+
+Link: https://www.youtube.com/watch?v=u3rM_yuNxCE&list=UUkERuP7J9mW1tY1dgN_PttQ&index=69
+
+Xanadu Big Data Platform Technology BMT@ Rackspace Cloud
+
+Link: https://www.slideshare.net/alexglee/xanadu-big-data-platform-technology-bmt-rackspace-cloud
+
 
 Followings illustrate some use cases of Xanadu
 
