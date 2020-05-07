@@ -72,6 +72,38 @@ Xanadu enables database with built-in massively parallel big data processing exp
 Link: https://www.youtube.com/watch?v=5gLB_qPu-TU&feature=youtu.be
 
 
+Followings show patents for Xanadu
+
+US10067719: Methods and systems for storing and accessing data in a distributed data storage system
+
+Abstract: The present disclosure provides methods and systems for storing and accessing data in a distributed data storage system. The distributed data storage system includes a plurality of data storage nodes. The method includes receiving a data storing request. Then, a pseudo-random sequence of data storage nodes of the plurality of data storage nodes is generated, wherein the pseudo-random sequence is not sequential from any starting position and each data storage node of the pseudo-random sequence of data storage nodes is determined using a pre-determined pseudo-random function that is a function of a data reference. Finally, a data is stored into at least one data storage node of the pseudo-random sequence of data storage nodes based on a pre-defined selection criteria. The distributed data storage system includes an access server configured to store into and access data from at least one data storage node of data storage nodes.
+
+Link: https://patents.google.com/patent/US10067719B1
+
+US10649980: Methods and systems for resilient, durable, scalable, and consistent distributed timeline data store
+
+Abstract: The present disclosure discloses methods and systems for managing data in a database in accordance with a data model, henceforth referred to as a “timeline store” or “timeline model”. The method includes mapping each data reference of one or more data references with a data value of a block of data in a data store. Then, each key reference of one or more key references is mapped with at least one pair of a time reference and the data reference in a timeline store, the time reference determines a point in time at which the key reference is assigned the pair of the time reference and the data reference. Thereafter, the data model is queried to retrieve a set of key references mapped to data references based on a specific ranges of keys and time or time intervals. Finally, the data model is queried to retrieve the raw data bytes associated/mapped with/to any desired data reference.
+
+Link: https://patents.google.com/patent/US10649980B1
+
+US10158483: Systems and methods for efficiently and securely storing data in a distributed data storage system
+
+Abstract: The present disclosure discloses a method of storing data in a distributed data storage system, the distributed data storage system including a plurality of server and client nodes. The method includes receiving unencrypted data from a client node for storing at a server node. The received data is split into one or more data chunks of one or more sizes. Further, each data chunk is encrypted using a key based on the content of corresponding data chunk, and each encrypted chunk is stored at a memory of a server node using a unique data reference. Furthermore, an index chunk is formed that contains one or more data references of one or more encrypted chunks in a predefined order, along with one or more corresponding encryption keys of one or more encrypted chunks, which after being encrypted and stored, the corresponding data reference of this encrypted index chunk is provided to the client node.
+
+Link: https://patents.google.com/patent/US10158483B1
+
+US10275400: Systems and methods for forming a fault-tolerant federated distributed database
+
+Abstract: The present disclosure provides a method for forming a fault-tolerant federated distributed database system, wherein the federated distributed database system includes a plurality of globally distributed local agreement groups, each globally distributed local agreement group including a plurality of computing nodes. The method includes storing data in each computing node in accordance with a temporal data model, a block corresponding to the temporal data model storing one or more keys, and time value and data reference value corresponding to each key, wherein the time value determines a point in time at which corresponding key is assigned corresponding data reference value. Then, for each globally distributed local agreement group, one or more blocks of corresponding computing nodes are updated, by updating state of corresponding one or more keys simultaneously using a local agreement algorithm. Further, for each globally distributed local agreement group, one or more updated blocks of the one or more corresponding computing nodes are combined to form a corresponding combined block of key edits. Furthermore, one or more key edits of combined blocks of the plurality of globally distributed local agreement groups are being agreed upon based on a pre-defined range of time and keys, using a global distributed agreement algorithm.
+
+Link: https://patents.google.com/patent/US10275400B1
+
+US10176202: Methods and systems for content-based image retrieval
+
+Abstract: The present disclosure discloses a method for retrieval of similar images from a database. For a plurality of input images, each input image is disintegrated into a plurality of image patches of one or more predefined pixel sizes. A representation of each image patch is computed using a dimensional reduction method and distances between the representations of each image patch are compared. Further, the representations of each image patch into addressable hyper-cubes are quantized, wherein an address of a hyper-cube is determined by content of corresponding image patch. Then, each image patch is stored using corresponding address as a key into the database. Later, for a target image patch, a set of similar image patches is retrieved from the database using the key.
+
+Link: https://patents.google.com/patent/US10176202B1
+
 
 
 
